@@ -1,0 +1,292 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+body {
+       font-family: 'poppins',sans-serif;
+     }
+.navbar {
+     display:flex;
+     align-items:center;
+     padding:20px;
+         }
+nav {
+    flex:1;
+    text-align:right;
+    }
+nav ul {
+    display: inline-block;
+       }
+nav li {
+    display: inline-block;
+    margin: 20px;
+       }
+a {
+   text-decoration:none;
+   color:blue;
+  }
+p {
+    color: blue;
+  }
+
+
+.container {
+       
+       max-width:1300px;
+       margin:auto;
+       padding-left:25px;
+       padding-right:25px;
+           }
+.row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+     }
+.col-2 {
+       
+      flex-basis: 50%;
+      min-width: 100px;
+        }
+.col-2 h1 {
+        margin-left: -150px;
+     }
+.header .col-2 p {
+        margin-left: -150px;
+     }
+.col-2 a {
+        margin-left: -100px;
+     }
+.col-2 img {
+       margin-left: -300px;
+       max-width: 280%;
+       padding:50px 0%;
+       }
+.btn {
+       display: inline-block;
+       background-color: red;
+       color: white;
+      padding: 8px 30px;
+       margin: 30px 0px;
+       border-radius: 30px;
+      }
+.header{ 
+       
+        background: radial-gradient(white,pink);
+
+}
+ .header .row {
+              margin-top: 70px;
+              }
+.btn:hover { 
+              background-color: blue;
+              transition: background 1s;
+           }
+.categories {
+             margin: 70px;
+             
+            }
+.col-3       {
+              flex-basis: 30%;
+              min-width: 250px;
+              margin-bottom: 30px;
+             }
+.col-3 img{
+           width: 100%;
+          <!-- margin-left: 10px;-->
+           }
+.small-container 
+           {
+
+         
+           margin: auto;
+
+}
+.row1 {
+       
+         background-color: pink;
+       margin: 70px;
+      }
+      
+.col-4 { 
+              flex-basis: 25%;
+              min-width: 250px;
+              margin-top: 20px;
+              margin-bottom: 30px;
+              transition: transform 0.5s;
+             }
+ .col-4 img {border-bottom:5px solid red;
+             border-top: 5px solid red;
+             width:85%;
+            margin-right: 5px;
+          margin-top: 20px;
+          margin-left:20px; 
+      
+             }
+.col-4 p {
+          margin-left: 80px;
+          }
+.title   {
+         text-align: center;
+         margin: 0 auto 80px;
+         position: relative;
+        line-height: 60px;
+         color: red;
+         transition: transform 0.5s;
+        }
+.title::after {
+         content:'';
+         background: red;
+         width: 80px;
+         height: 5px;
+         border-radius: 5px;
+         position: absolute;
+         bottom: 0;
+         left: 50%;
+         transform: translatex(-50%);
+       }
+.rating,p,h4 {
+          color: #555;
+         font-weight: normal;
+
+         margin-left: 80px;
+           }
+.rating .fa {
+          color: #ff523b;
+           }
+.col-4:hover {
+          transform: translateY(-5px);
+          }
+.offer {
+         background: radial-gradient(white,pink);
+         margin-top: 30px;
+         height:650px;
+
+        }
+
+.offer .small-container .row .col-1 img {
+             width: 70%;
+             margin-top: 100px;
+            }
+.offer .small-container .row .col-2 {
+             margin-left: -400px;
+             margin-top: 100px;
+             }
+.col-2 p {
+          color:blue;
+          margin-left:-150px;
+          }
+.col-2 small { float: left;
+             
+             color: green;
+             margin-left:-150px;
+             }
+
+
+/* ----------------------testimonial--------------------*/
+
+
+.testimonial {
+               margin-top: 180px;
+               padding:50px;
+               
+             }
+.testimonial .col-3{
+               text-align: center;
+               padding: 40px 20px;
+               box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+               translation: transform 1s;x
+               }
+testimonial .col-3 i,p {
+                        margin-left:-10px;
+                        }
+.col-3 .rating {
+                        margin-right:80px;
+                        }
+.testimonial .col-3 img {
+                        width:50%;
+                        margin-top: 20px;
+                       
+                        border-radius:50%;                       
+                       }
+.testimonial .col-3:hover {
+                         transform: translateY(-10px);
+                       }
+.fa.fa-quote-left {
+                    font-size:34px;
+                    color: #ff523b;
+                   }
+.testimonial .col-3 h2 {
+                     color:#555;
+                     font-size:24px;
+             }
+
+
+      /* -------------brands---------------*/    
+
+
+.brands .row {
+                    margin-top: -50px;
+
+                    
+          }
+.brands .small-container .row  {
+                     margin-right: 60px;
+                     margin-bottom: 80px;
+                     margin-left: 60px;
+
+                     }
+.brands .small-container .row .col-5 {
+                     width: 170px;
+                   
+                         }
+.brands .small-container .row .col-5 img {
+                      width: 80%;
+                      filter: grayscale(100%);
+                      }
+.brands .small-container .row .col-5 img:hover {
+                      filter: grayscale(0%);
+                       }
+
+
+/*------------------footer---------------*/
+
+
+
+.footer {
+          margin-left: -70px;
+          margin-right: -70px;
+          background: radial-gradient(white,silver);
+          font-size: 14px;
+
+         }
+.footer .row .col-1, .col-2, .col-3, .col-4 {
+            flex-basis: 25%;
+            min-width: 250px;
+            margin-left: 0px;
+            padding: 30px;
+        
+            }
+.footer ul { 
+           list-style-type: none;
+          }
+.footer h2{
+          margin-top: -45px;
+          margin-bottom: 10px;
+          }
+.footer .col-3 { 
+          margin-top:75px;
+             }
+.footer .col-4 { 
+          margin-top:70px;
+             }
+.footer .col-2 p {
+          margin-left:1px;
+          color: black;
+          margin-top: -40px;
+          }
+.footer .col-2 img {
+          margin-top: -20px;
+          margin-rleft:1px;
+        }
